@@ -1,32 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Provider Search App
 
-## Getting Started
+## Overview
+The Provider Search App is a web application that allows users to search for healthcare providers based on various criteria and view detailed information. This app provides a clean and intuitive interface for managing search results and interacting with provider data.
 
-First, run the development server:
+## Features
+- **Search Providers**: Search healthcare providers by classifications and other parameters.
+- **View Provider Details**: Display key information, such as names, credentials, gender, taxonomy, phone numbers, and addresses.
+- **Responsive Design**: Optimized for desktop and mobile devices with a responsive grid layout.
+- **Load More Results**: Seamlessly load additional results as you scroll.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies
+- **Frontend**: React.js with Tailwind CSS for styling.
+- **Backend**: Node.js API integration for fetching provider data.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-## Learn More
+### Prerequisites
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v14 or newer)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-To learn more about Next.js, take a look at the following resources:
+### Steps to run locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/provider-search-app.git
+   cd provider-search-app
+2. Start the Development Server
+   ```npm run dev```
+3. Open your Browser and Navigate to:
+   ```http://localhost:3000```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Enhancements
+- Add like/favorite functionality
+- Add user authentication for saving liked providers across sessions.
+- Integrate with a database to store user preferences and data.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
+1. Fork the repository.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Create a feature branch:
+   ```git checkout -b feature/your-feature-name```
+2. Commit your changes:
+   ```git commit -m "Add your feature description"```
+3. Push to your branch:
+   ```git push origin feature/your-feature-name```
+4. Open a pull request.

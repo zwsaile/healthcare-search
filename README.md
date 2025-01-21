@@ -1,7 +1,7 @@
-# Provider Search App
+# CareFinder
 
 ## Overview
-The Provider Search App is a web application that allows users to search for healthcare providers based on various criteria and view detailed information. This app provides a clean and intuitive interface for managing search results and interacting with provider data.
+CareFinder is a web application that allows users to search for healthcare providers based on various criteria and view detailed information. This app provides a clean and intuitive interface for managing search results and interacting with provider data.
 
 ## Features
 - **Search Providers**: Search healthcare providers by classifications and other parameters.
@@ -23,8 +23,8 @@ Ensure you have the following installed:
 ### Steps to run locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/provider-search-app.git
-   cd provider-search-app
+   git clone https://github.com/zwsaile/healthcare-search.git
+   cd healthcare-search
 2. Start the Development Server
    ```npm run dev```
 3. Open your Browser and Navigate to:

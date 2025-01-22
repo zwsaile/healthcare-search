@@ -35,6 +35,7 @@ Ensure you have the following installed:
 
 ## Future Enhancements
 - Add like/favorite functionality
+- Add dynamic list of cities to choose from relative to the state selected 
 - Add user authentication for saving liked providers across sessions.
 - Integrate with a database to store user preferences and data.
 

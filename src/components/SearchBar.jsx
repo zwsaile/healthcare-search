@@ -47,10 +47,12 @@ const SearchBar = ({ onSearch, results, classifications }) => {
 
                 <div className="grid grid-cols-2 gap-x-7 gap-y-2">
                 <InputField
-                    label="Last Name (required)"
+                    label="Last Name"
                     name="lastName"
                     value={formData.lastName}
                     onChange={handleChange}
+                    className="placeholder:text-slate-700"
+                    placeholder="Required"
                     required
                 />
                 <InputField

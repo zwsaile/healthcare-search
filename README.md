@@ -3,6 +3,9 @@
 ## Overview
 CareFinder is a web application that allows users to search for healthcare providers based on various criteria and view detailed information. This app provides a clean and intuitive interface for managing search results and interacting with provider data.
 
+## Deployment
+[View Live Application](https://healthcare-search.vercel.app/)
+
 ## Features
 - **Search Providers**: Search healthcare providers by classifications and other parameters.
 - **View Provider Details**: Display key information, such as names, credentials, gender, taxonomy, phone numbers, and addresses.
